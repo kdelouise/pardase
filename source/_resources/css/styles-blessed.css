@@ -1,0 +1,4551 @@
+
+/* line 369, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/add-user.less */
+.assign-products ul.tags-container li {
+  padding: 2px 0;
+}
+/* line 376, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/add-user.less */
+.assign-products .user-role-regfilings-control {
+  border-bottom: 1px solid #CCEAF0;
+  height: auto;
+  margin: 0px 10px 0 10px;
+  width: 100%;
+}
+/* line 383, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/add-user.less */
+.assign-products .user-role-regfilings-info {
+  float: left;
+  height: 60px;
+  margin: 5px 0 5px 0;
+  padding-left: 50px;
+  width: 50%;
+}
+/* line 391, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/add-user.less */
+.assign-products .user-role-regfilings-dropdown {
+  float: right;
+  height: 60px;
+  margin: 5px 0 5px 0;
+  padding-top: 10px;
+  width: 50%;
+}
+/* User Table */
+/* line 2, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .main {
+  width: 21%;
+}
+/* line 3, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .address {
+  width: 30%;
+}
+/* line 4, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .date-added {
+  width: 16%;
+}
+/* line 5, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .addtl {
+  width: 33%;
+}
+/* line 9, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .thead .th.btn-group {
+  white-space: normal;
+}
+/* line 16, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .tr dt {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+/* line 21, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .tr dd {
+  display: none;
+  margin-left: 0;
+}
+/* line 24, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .tr dd:first-of-type {
+  margin-top: 1em;
+}
+/* line 27, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .tr dd span {
+  width: 50px;
+  color: #555555;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+}
+/* line 38, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .tr .arrow-down {
+  float: right;
+  margin: 8px 4px 0 0;
+}
+/* line 43, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .tr .edit-buttons {
+  display: none;
+  float: right;
+  margin-top: 1em;
+  margin-bottom: 8px;
+  width: 125px;
+}
+/* line 50, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .tr .edit-buttons .btn-mini {
+  padding: 3px 10px 2px;
+}
+/* line 54, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .tr .edit-buttons .btn-mini-login {
+  font-size: 0.75em;
+  line-height: 1.1em;
+  width: 107px;
+}
+/* line 62, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .td {
+  margin-bottom: 0;
+}
+/* line 66, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .tbody .addtl {
+  width: 30%;
+}
+/* line 71, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .address dd.displBlck {
+  display: block;
+}
+/* line 76, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .addtl dd.displBlck {
+  display: block;
+}
+/* line 80, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .dispNone {
+  display: none;
+}
+/* line 84, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table .main dd.displBlck {
+  display: block;
+}
+/* line 88, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table i {
+  cursor: pointer;
+}
+/* line 92, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table i.arrow-down {
+  float: right;
+  line-height: 15px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+/* line 97, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-table.less */
+.user-table i.up-arrow {
+  float: right;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+/* User Profile */
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+h1,
+h2,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+/* line 11, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+figure.user-photo {
+  padding: 10px 10px 10px;
+  border: 1px solid #555555;
+  -webkit-box-shadow: 0 0 5px #d8d8d8;
+  -moz-box-shadow: 0 0 5px #d8d8d8;
+  box-shadow: 0 0 5px #d8d8d8;
+  background: #ffffff;
+  height: 200px;
+  width: 200px;
+  margin: 0 0 1em 0;
+}
+/* line 21, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left {
+  float: left;
+  width: 25%;
+  margin: 1.5em 0 0 0;
+}
+/* line 25, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left h3 {
+  font-size: 18px;
+}
+/* line 28, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left .btn {
+  background: ##0094b3;
+  color: #454545;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 6px 10px 6px 10px;
+  position: absolute;
+  margin: -40px 0 0 8px;
+  border: solid 1px #d5d5d5;
+}
+/* line 41, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left .contact-info {
+  padding-right: 20px;
+}
+/* line 43, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left .contact-info h3 {
+  font-size: 18px;
+  color: #555555;
+}
+/* line 47, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left .contact-info .edit {
+  margin: 10px 0;
+  line-height: 22px;
+}
+/* line 51, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left .contact-info .edit:hover a {
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 56, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left .contact-info .edit i.ss-icon {
+  margin-right: 5px;
+  color: #0094b3;
+}
+/* line 60, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left .contact-info .edit a {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+}
+/* line 66, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left .contact-info li {
+  margin-top: 1em;
+  line-height: 1.2em;
+  list-style: none;
+}
+/* line 76, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left section.contact-info ul.contact-methods {
+  list-style: none;
+  margin: 0 2em 0 0;
+  padding: 0 0 1em;
+  font-size: 1.2em;
+  border-bottom: 1px solid #e7e7e7;
+}
+/* line 83, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left section.contact-info ul.contact-methods li {
+  margin-bottom: 1em;
+}
+/* line 86, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left section.contact-info ul.contact-methods li i.ss-icon {
+  color: #555555;
+}
+/* line 91, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left section.contact-info ul.contact-methods li i.ss-icon {
+  line-height: .5em;
+  display: inline-block;
+  margin-right: 3px;
+}
+/* line 99, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left section.contact-info .address {
+  border-bottom: 1px solid #e7e7e7;
+  margin-right: 2em;
+}
+/* line 105, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left section.contact-info dl dt {
+  color: #555555;
+  padding-bottom: .3em;
+}
+/* line 109, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left section.contact-info dl dd {
+  margin: 0 1em 1em 1.2em;
+  padding: 0 0 1em;
+}
+/* line 113, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-left section.contact-info dl dd span.contact-line {
+  display: block;
+}
+/* line 130, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-right {
+  float: right;
+  width: 75%;
+  height: auto;
+  padding-top: 20px;
+}
+/* line 136, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-right h1 {
+  font-size: 32px;
+}
+/* line 141, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-right .tab-pane {
+  border: 0px;
+}
+/* line 145, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-right .title {
+  color: #555555;
+  font-size: 1.5em;
+  margin: 0 0 15px 0;
+}
+/* line 152, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-right .user-control {
+  /* 		background-color: blue; */
+  width: 100%;
+}
+/* line 156, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-right .user-control .btn {
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+/* line 162, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-right .user-control .btn .caret {
+  border-top-color: #454545;
+  border-bottom-color: #454545;
+}
+/* line 170, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-right .dropdown-menu a {
+  color: #0094b3;
+}
+/* line 174, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-right .dropdown-menu a:hover {
+  background-color: #0094b3;
+}
+/* line 179, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-right .control-wells {
+  background-color: white;
+}
+/* line 184, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-profile.less */
+.user-info-right .control-wells ul li {
+  list-style: none;
+}
+/* User Applications */
+/* line 2, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications {
+  border: 0px;
+  width: 100%;
+}
+/* line 3, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications h2 {
+  font-size: 24px;
+}
+/* line 10, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .customer-control-wells {
+  background: #ffffff;
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 19px;
+  margin-bottom: 15px;
+}
+/* line 18, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .accordion-inner {
+  border: 1px solid #D8D8D8;
+  width: auto;
+  padding: 15px;
+  background: #f8f8fb;
+}
+/* line 25, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .accordion-group {
+  border: none;
+}
+/* line 33, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .applications-header {
+  padding-bottom: 10px;
+  width: 100%;
+}
+/* line 40, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .applications-header .applications-label {
+  width: 40%;
+}
+/* line 43, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .applications-header .applications-label h4 {
+  font-size: 1.5em;
+  color: #363636;
+  margin-bottom: 0px;
+  border: 0px;
+}
+/* line 52, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .applications-header .applications-status-label {
+  font-size: 18px;
+  color: #0b6e89;
+  margin: 20px 0 0px 30px;
+  padding-left: 10px;
+  width: 44%;
+}
+/* line 61, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .applications-header .applications-status-label h4 {
+  border: 0px;
+}
+/* line 65, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .applications-header .applications-status-label span.status {
+  color: black;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+/* line 73, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .applications-header .expand-lab {
+  font-size: 1.1em;
+  color: #0094b3;
+  margin: 10px 0 0px 0;
+  padding-left: 10px;
+}
+/* line 81, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .applications-header .collapse-lab {
+  font-size: 1.1em;
+  color: #0094b3;
+  margin: 10px 0 0px 0;
+  padding-left: 10px;
+}
+/* line 94, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .application-services {
+  padding: 10px 0 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #d8d8d8;
+}
+/* line 99, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .application-services .top h4 {
+  border-bottom: 0px;
+  border-top: 0px;
+  padding-top: 10px;
+  font-size: 18px;
+  color: #0094b3;
+}
+/* line 111, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .application-services h4 {
+  border-bottom: 0px;
+  font-size: 18px;
+  color: #0094b3;
+  padding-top: 10px;
+}
+/* line 122, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .application-services .application-service-label {
+  margin-bottom: 8px;
+  width: 60%;
+}
+/* line 127, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .application-services .application-service-label label {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 132, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .application-services .application-service-label p {
+  margin: 0 0 0;
+}
+/* line 140, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .application-services .application-service-status {
+  width: 30%;
+  display: inline-block;
+  text-align: right;
+}
+/* line 145, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-applications.less */
+#user-applications .application-services .application-service-status p {
+  color: #65a733;
+  font-size: medium;
+  text-transform: capitalize;
+}
+/* User Settings */
+/*    USER SETTINGS PANEL      */
+/* line 3, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-settings.less */
+#user-settings {
+  width: 100%;
+}
+/* line 6, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-settings.less */
+#user-settings h2 {
+  font-size: 1.8em;
+}
+/* line 11, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-settings.less */
+#user-settings .settings-wells {
+  width: 100%;
+  height: auto;
+}
+/* line 15, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-settings.less */
+#user-settings .settings-wells .alert-success {
+  display: none;
+}
+/* line 20, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-settings.less */
+#user-settings .settings-wells .date-time {
+  width: 40%;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: -15px 0 0 0;
+  color: #0094b3;
+}
+/* line 27, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-settings.less */
+#user-settings .settings-wells .date-time h6 {
+  margin: 0;
+  color: #555555;
+  font-weight: normal;
+  font-size: .8em;
+  border: none;
+}
+/* line 37, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-settings.less */
+#user-settings .settings-wells .settings-label {
+  display: block;
+}
+/* line 40, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-settings.less */
+#user-settings .settings-wells .settings-label h4 {
+  font-size: 1.5em;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #D8D8D8;
+  margin-bottom: 1.2em;
+}
+/* line 50, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-settings.less */
+#user-settings .settings-wells .settings-label .settings-control {
+  margin: 0 0 0 20px;
+}
+/* line 52, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/user-settings.less */
+#user-settings .settings-wells .settings-label .settings-control h4 {
+  border-bottom: 0px;
+}
+/* User Contact Info Editor */
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal {
+  width: 825px;
+  margin-left: -412.5px;
+}
+/* line 6, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal #modal-body {
+  height: 420px;
+}
+/* line 10, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal #modal-body i.ss-icon {
+  color: ##468847;
+  display: inline-block;
+  margin-right: 1.5em;
+}
+/* line 15, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal #modal-body .alert {
+  padding-left: 3em;
+}
+/* line 25, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal #modal-body .user-contact-form label {
+  padding: 5px 0 20px 25px;
+}
+/* line 29, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal #modal-body .user-contact-form .form {
+  float: left;
+  width: 395px;
+  margin: 0 0 0 10px;
+}
+/* line 35, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal #modal-body .user-contact-form .form .input-group {
+  margin: 0 2em 1em 0;
+}
+/* line 38, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal #modal-body .user-contact-form .form .input-group .btn {
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+  width: 260px;
+}
+/* line 48, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal #modal-body .user-contact-form .form .input-group .input-group-addon {
+  color: #555555;
+  font-weight: bold;
+  margin: 0 0.4em 0;
+}
+/* line 54, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal #modal-body .user-contact-form .form .input-group .input-group-addon-country {
+  color: #555555;
+  font-weight: bold;
+  margin: 0 .4em 0 40px;
+}
+/* line 60, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal #modal-body .user-contact-form .form .input-group .form-control {
+  width: 250px;
+}
+/* line 66, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal #modal-body .user-contact-form .form .input-group .input-group-btn .btn {
+  background: #444;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+}
+/* line 76, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal #modal-body .user-contact-form .form .input-group .input-group-btn .btn .caret {
+  color: #ffffff;
+}
+/* line 85, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal #modal-body .user-contact-form .form .input-group .drop-dn .form-control {
+  width: 340px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin: 0;
+}
+/* line 100, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal .modal-footer {
+  margin-top: 20px;
+}
+/* line 102, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/profilemodal.less */
+#profileModal .modal-footer .btn {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+}
+/* User Avatar Uploader */
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/avatar-modal.less */
+#avatar-Modal {
+  width: 640px;
+}
+/* line 4, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/avatar-modal.less */
+#avatar-Modal .requirements {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+/* line 11, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/avatar-modal.less */
+#avatar-Modal i.ss-icon {
+  color: ##468847;
+  display: inline-block;
+  padding-right: 1.5em;
+}
+/* line 17, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/avatar-modal.less */
+#avatar-Modal .alert {
+  padding-left: 3em;
+}
+/* line 27, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/avatar-modal.less */
+#avatar-Modal .ds-upload {
+  margin-left: 20px;
+  width: 580px;
+}
+/* line 32, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/avatar-modal.less */
+#avatar-Modal .ds-upload .loaded {
+  margin: 0 auto;
+}
+/* line 43, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/avatar-modal.less */
+#avatar-Modal .modal-footer .btn {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+}
+/* Tooltip */
+/* TipTip CSS - Version 1.2 */
+/* line 3, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_holder {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+/* line 11, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_holder.tip_top {
+  padding-bottom: 10px;
+}
+/* line 15, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_holder.tip_bottom {
+  padding-top: 5px;
+}
+/* line 19, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_holder.tip_right {
+  padding-left: 5px;
+}
+/* line 23, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_holder.tip_left {
+  padding-right: 5px;
+}
+/* line 27, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_content {
+  font-size: 12px;
+  color: #fff;
+  text-shadow: 0 0 2px #000;
+  padding: 6px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background-color: #191919;
+  background-color: rgba(25, 25, 25, 0.92);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000000));
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  box-shadow: 0 0 3px #555;
+  -webkit-box-shadow: 0 0 3px #555;
+  -moz-box-shadow: 0 0 3px #555;
+}
+/* line 44, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_arrow,
+#tiptip_arrow_inner {
+  position: absolute;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 6px;
+  height: 0;
+  width: 0;
+}
+/* line 53, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_holder.tip_top #tiptip_arrow {
+  border-top-color: #fff;
+  border-top-color: rgba(255, 255, 255, 0.35);
+}
+/* line 58, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_holder.tip_bottom #tiptip_arrow {
+  border-bottom-color: #fff;
+  border-bottom-color: rgba(255, 255, 255, 0.35);
+}
+/* line 63, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_holder.tip_right #tiptip_arrow {
+  border-right-color: #fff;
+  border-right-color: rgba(255, 255, 255, 0.35);
+}
+/* line 68, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_holder.tip_left #tiptip_arrow {
+  border-left-color: #fff;
+  border-left-color: rgba(255, 255, 255, 0.35);
+}
+/* line 73, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+  margin-top: -7px;
+  margin-left: -6px;
+  border-top-color: #191919;
+  border-top-color: rgba(25, 25, 25, 0.92);
+}
+/* line 80, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+  margin-top: -5px;
+  margin-left: -6px;
+  border-bottom-color: #191919;
+  border-bottom-color: rgba(25, 25, 25, 0.92);
+}
+/* line 87, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+  margin-top: -6px;
+  margin-left: -5px;
+  border-right-color: #191919;
+  border-right-color: rgba(25, 25, 25, 0.92);
+}
+/* line 94, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+  margin-top: -6px;
+  margin-left: -7px;
+  border-left-color: #191919;
+  border-left-color: rgba(25, 25, 25, 0.92);
+}
+/* Webkit Hacks  */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 103, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+  #tiptip_content {
+    padding: 4px 8px 5px 8px;
+    background-color: rgba(45, 45, 45, 0.88);
+  }
+  /* line 107, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+  #tiptip_holder.tip_bottom #tiptip_arrow_inner {
+    border-bottom-color: rgba(45, 45, 45, 0.88);
+  }
+  /* line 110, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tipTip.less */
+  #tiptip_holder.tip_top #tiptip_arrow_inner {
+    border-top-color: rgba(20, 20, 20, 0.92);
+  }
+}
+/* Tooltip */
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password {
+  background: #fafafa;
+}
+/* line 5, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password .container {
+  margin: 0 auto;
+  width: 960px;
+}
+/* line 9, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password .container .logo {
+  margin: 0 auto;
+  padding: 20px 0 30px 0;
+  width: 294px;
+}
+/* line 16, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password .container .alert {
+  margin: 0 auto;
+  font-size: 1em;
+  padding: 10px 10px 10px 30px;
+  width: 760px;
+  margin-bottom: 30px;
+}
+/* line 23, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password .container .alert i.ss-icon {
+  display: inline-block;
+  margin-right: 1.5em;
+}
+/* line 29, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password .container .security-questions-well {
+  height: 340px;
+}
+/* line 32, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password .container .security-questions-well .security-heading {
+  padding: 10px 0 0 10px;
+  border-bottom: 1px solid #d8d8d8;
+  height: 50px;
+  margin-bottom: 25px;
+}
+/* line 38, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password .container .security-questions-well .security-heading .heading {
+  font-size: 1.75em;
+  font-weight: bold;
+}
+/* line 44, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password .container .security-questions-well .security-heading .sub-heading {
+  padding: 0 0 0 10px;
+  display: inline-block;
+}
+/* line 50, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password .container .security-questions-well .form {
+  width: 700px;
+  margin: 0 auto;
+}
+/* line 54, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password .container .security-questions-well .form .input-group {
+  float: right;
+}
+/* line 60, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password .container .security-questions-well .submit {
+  margin-top: 20px;
+}
+/* line 63, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password .container .security-questions-well .submit .inputs {
+  margin: 0 auto;
+  width: 200px;
+}
+/* line 68, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password .container .security-questions-well .submit .inputs .btn-cancel {
+  margin-right: 20px;
+  background-color: #d8d8d8;
+  color: #454545;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+  border: 1px solid;
+  border-color: #c5c5c5;
+  border-color: rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+}
+/* line 89, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/reset-password.less */
+#reset-password .container .security-questions-well .submit .inputs .btn {
+  background-color: #0094b3;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+}
+/* Tooltip */
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions {
+  background: #fafafa;
+}
+/* line 5, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container {
+  margin: 0 auto;
+  width: 960px;
+}
+/* line 9, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container .logo {
+  margin: 0 auto;
+  padding: 20px 0 30px 0;
+  width: 294px;
+}
+/* line 16, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container .alert {
+  margin: 0 auto;
+  font-size: 1em;
+  padding: 10px 10px 10px 30px;
+  width: 760px;
+  margin-bottom: 30px;
+}
+/* line 23, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container .alert i.ss-icon {
+  display: inline-block;
+  margin-right: 1.5em;
+}
+/* line 29, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container .security-questions-well {
+  height: 340px;
+}
+/* line 32, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container .security-questions-well .security-heading {
+  padding: 10px 0 0 10px;
+  border-bottom: 1px solid #d8d8d8;
+  height: 50px;
+  margin-bottom: 25px;
+}
+/* line 38, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container .security-questions-well .security-heading .heading {
+  font-size: 1.75em;
+  font-weight: bold;
+}
+/* line 46, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container .security-questions-well .form {
+  width: 760px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+/* line 51, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container .security-questions-well .form .input-group {
+  float: right;
+  padding-bottom: 10px;
+}
+/* line 55, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container .security-questions-well .form .input-group .form-control {
+  margin-right: 20px;
+  width: 260px;
+}
+/* line 60, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container .security-questions-well .form .input-group .form-control-field {
+  width: 300px;
+}
+/* line 66, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container .security-questions-well .submit {
+  margin-top: 60px;
+}
+/* line 69, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container .security-questions-well .submit .inputs {
+  margin: 0 auto;
+  width: 200px;
+}
+/* line 74, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container .security-questions-well .submit .inputs .btn-cancel {
+  margin-right: 20px;
+  background-color: #d8d8d8;
+  color: #454545;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+  border: 1px solid;
+  border-color: #c5c5c5;
+  border-color: rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+}
+/* line 95, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/security-questions.less */
+#security-questions .container .security-questions-well .submit .inputs .btn {
+  background-color: #0094b3;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+}
+/* Customer Profile */
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+/* line 8, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+body {
+  background: #e9eaed;
+}
+/* line 9, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+figure.customer-logo {
+  margin: 0;
+  padding: 10px 10px 10px;
+  border: 1px solid #555555;
+  -webkit-box-shadow: 0 0 5px #d8d8d8;
+  -moz-box-shadow: 0 0 5px #d8d8d8;
+  box-shadow: 0 0 5px #d8d8d8;
+  background: #ffffff;
+  width: 320px;
+}
+/* line 23, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+li {
+  list-style: none;
+}
+/* line 28, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left {
+  float: left;
+  width: 25%;
+}
+/* line 32, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left .customer-logo {
+  margin-top: 20px;
+  background-color: #d8d8d8;
+  border: 1px solid #999;
+  width: 100%;
+  min-height: 140px;
+  padding: 0;
+}
+/* line 40, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left .customer-logo img {
+  width: 100%;
+  vertical-align: middle;
+  margin: auto;
+}
+/* line 47, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left .customer-info {
+  padding-right: 20px;
+}
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left .customer-info h3 {
+  font-size: 18px;
+}
+/* line 53, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left .customer-info li {
+  list-style: none;
+}
+/* line 57, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left .customer-info .edit {
+  margin: 10px 0;
+  line-height: 22px;
+}
+/* line 61, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left .customer-info .edit:hover a {
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 66, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left .customer-info .edit i.ss-icon {
+  margin-right: 5px;
+  color: #0094b3;
+}
+/* line 70, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left .customer-info .edit a {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+}
+/* line 78, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left section.customer-info i.ss-icon {
+  color: #555555;
+}
+/* line 82, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left section.customer-info ul.contact-methods {
+  list-style: none;
+  margin: 0 0 1.5em 0;
+  padding: 0 1em .1em 0;
+  font-size: 1.1em;
+  border-bottom: 1px dotted #aba8a8;
+}
+/* line 89, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left section.customer-info ul.contact-methods li {
+  margin-bottom: .5em;
+}
+/* line 92, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left section.customer-info ul.contact-methods li i.ss-icon {
+  color: #555555;
+  line-height: .5em;
+  display: inline-block;
+  margin-right: 3px;
+}
+/* line 102, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left section.customer-info dl .company_address_section {
+  margin-top: -10px;
+}
+/* line 105, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left section.customer-info dl dt {
+  color: #555555;
+  margin-bottom: 8px;
+}
+/* line 110, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left section.customer-info dl i.ss-icon {
+  line-height: .5em;
+  display: inline-block;
+  margin-right: 3px;
+}
+/* line 115, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left section.customer-info dl dd {
+  margin: 0 0 .5em 1.2em;
+  padding: 0 0 1em;
+  border-bottom: 1px solid #EBEBEB;
+}
+/* line 119, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left section.customer-info dl dd span.contact-line {
+  display: block;
+}
+/* line 122, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-left section.customer-info dl dd span.contact-line-margin {
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 131, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-right {
+  float: right;
+  width: 75%;
+  height: auto;
+  padding-top: 10px;
+}
+/* line 137, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-right h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+/* line 142, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+.customer-info-right .tab-pane {
+  border-bottom: 0px;
+}
+/* line 149, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution h2 {
+  font-size: 1.5em;
+}
+/* line 152, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list {
+  margin-left: 0;
+  min-height: 347px;
+}
+/* line 155, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .ss-icon.twitter {
+  color: #4099FF;
+}
+/* line 158, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .ss-icon.facebook {
+  color: #3b5998;
+}
+/* line 161, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .ss-icon.linkedin {
+  color: #4875b4;
+}
+/* line 164, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .ss-icon.twitter,
+#SocialMediaDistribution ul.social-list .ss-icon.facebook,
+#SocialMediaDistribution ul.social-list .ss-icon.linkedin {
+  margin-right: 5px;
+}
+/* line 167, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list table {
+  width: 100%;
+}
+/* line 169, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list table th.social_delete {
+  width: 60px;
+  padding-right: 0px;
+}
+/* line 173, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list table td .social_delete {
+  margin-left: 15px;
+}
+/* line 177, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list h3 {
+  font-size: 18px;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #D8D8D8;
+  margin-bottom: .5em;
+  margin-top: 0;
+}
+/* line 183, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list h3 i {
+  vertical-align: middle;
+}
+/* line 185, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list h4 {
+  font-size: 14px;
+  border-bottom: 0;
+}
+/* line 189, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list li.ttr.social {
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 12px;
+  font-weight: 700;
+  background-color: #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+/* line 201, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list li.ttr.social p {
+  padding: 15px 0;
+  font-weight: normal;
+}
+/* line 205, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list li.ttr.social .active-social {
+  margin-right: 12px;
+  float: right;
+  color: #65a733;
+}
+/* line 210, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list li.ttr.social .inactive {
+  margin-right: 12px;
+  float: right;
+  color: red;
+}
+/* line 215, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list li.ttr.social .checked {
+  color: #65a733;
+  margin-right: 8px;
+}
+/* line 220, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info,
+#SocialMediaDistribution ul.social-list .linkedin-info,
+#SocialMediaDistribution ul.social-list .twitter-info {
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  /* Safari */
+  overflow: hidden;
+  max-height: 0px;
+  padding: 0px;
+  clear: both;
+}
+/* line 226, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info.halfling,
+#SocialMediaDistribution ul.social-list .linkedin-info.halfling,
+#SocialMediaDistribution ul.social-list .twitter-info.halfling {
+  height: 125px;
+  padding: 10px;
+  text-align: center;
+}
+/* line 227, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info.visible,
+#SocialMediaDistribution ul.social-list .linkedin-info.visible,
+#SocialMediaDistribution ul.social-list .twitter-info.visible {
+  max-height: 800px;
+  padding-bottom: 16px;
+}
+/* line 228, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info.more,
+#SocialMediaDistribution ul.social-list .linkedin-info.more,
+#SocialMediaDistribution ul.social-list .twitter-info.more {
+  max-height: 436px;
+}
+/* line 230, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .account-validate.invalid,
+#SocialMediaDistribution ul.social-list .linkedin-info .account-validate.invalid,
+#SocialMediaDistribution ul.social-list .twitter-info .account-validate.invalid {
+  border-color: #ed1c24;
+}
+/* line 236, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .view-deactive,
+#SocialMediaDistribution ul.social-list .linkedin-info .view-deactive,
+#SocialMediaDistribution ul.social-list .twitter-info .view-deactive,
+#SocialMediaDistribution ul.social-list .facebook-info .hide-deactive,
+#SocialMediaDistribution ul.social-list .linkedin-info .hide-deactive,
+#SocialMediaDistribution ul.social-list .twitter-info .hide-deactive {
+  padding-bottom: 12px;
+  padding-right: 28px;
+  padding-top: 12px;
+}
+/* line 241, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .alert,
+#SocialMediaDistribution ul.social-list .linkedin-info .alert,
+#SocialMediaDistribution ul.social-list .twitter-info .alert {
+  margin-top: 16px;
+}
+/* line 244, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup {
+  vertical-align: top;
+  margin-top: -3px;
+  border: 1px solid #d8d8d8;
+  background: #fff;
+}
+/* line 249, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup h6,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup h6,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup h6 {
+  font-size: 1em;
+}
+/* line 250, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .social-form-top,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .social-form-top,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .social-form-top {
+  display: inline-block;
+  width: 22%;
+  margin-left: 10px;
+}
+/* line 253, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .social-form-top input,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .social-form-top input,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .social-form-top input {
+  width: 90%;
+}
+/* line 257, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .social-form-top select,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .social-form-top select,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .social-form-top select {
+  width: 90%;
+}
+/* line 260, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .social-form-top .select2-container,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .social-form-top .select2-container,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .social-form-top .select2-container,
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .social-form-top .select2-drop,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .social-form-top .select2-drop,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .social-form-top .select2-drop,
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .social-form-top .select2-search,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .social-form-top .select2-search,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .social-form-top .select2-search,
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .social-form-top .select2-search input,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .social-form-top .select2-search input,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .social-form-top .select2-search input {
+  width: 100%;
+}
+/* line 263, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .social-form-top .select2-container-multi .select2-choices,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .social-form-top .select2-container-multi .select2-choices,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .social-form-top .select2-container-multi .select2-choices {
+  font-size: 14px;
+}
+/* line 267, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .social-form-bottom,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .social-form-bottom,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .social-form-bottom {
+  display: inline-block;
+  width: 30%;
+  margin-left: 10px;
+}
+/* line 271, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .social-form-bottom textarea,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .social-form-bottom textarea,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .social-form-bottom textarea {
+  width: 100%;
+}
+/* line 274, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .social-form-bottom .pnr-url-button,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .social-form-bottom .pnr-url-button,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .social-form-bottom .pnr-url-button,
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .social-form-bottom .custom-url-radio,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .social-form-bottom .custom-url-radio,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .social-form-bottom .custom-url-radio {
+  margin-right: 8px;
+}
+/* line 277, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .social-form-bottom .custom-url-input,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .social-form-bottom .custom-url-input,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .social-form-bottom .custom-url-input {
+  width: 80%;
+  margin-left: -4px;
+}
+/* line 281, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .social-form-bottom .btn,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .social-form-bottom .btn,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .social-form-bottom .btn {
+  margin-bottom: 23px;
+  margin-left: 80px;
+}
+/* line 286, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-setup .btn-success,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-setup .btn-success,
+#SocialMediaDistribution ul.social-list .twitter-info .social-setup .btn-success {
+  margin-right: 30px;
+}
+/* line 290, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup {
+  border: 1px solid #cecece;
+  padding: 10px;
+  margin-top: 12px;
+  width: 100%;
+}
+/* line 295, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup.second-row,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup.second-row,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup.second-row {
+  margin-top: -1px;
+}
+/* line 298, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup {
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+  width: 23%;
+}
+/* line 306, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.username input,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.username input,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.username input {
+  width: 100%;
+  height: 31px;
+}
+/* line 311, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.hashtags,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.hashtags,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.hashtags {
+  border-left: 1px solid #cecece;
+}
+/* line 314, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.hashtags .select2-container,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.hashtags .select2-container,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.hashtags .select2-container,
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.hashtags .select2-drop,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.hashtags .select2-drop,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.hashtags .select2-drop,
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.hashtags .select2-search,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.hashtags .select2-search,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.hashtags .select2-search,
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.hashtags .select2-search input,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.hashtags .select2-search input,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.hashtags .select2-search input {
+  width: 100%;
+}
+/* line 317, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.hashtags .select2-container-multi .select2-choices,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.hashtags .select2-container-multi .select2-choices,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.hashtags .select2-container-multi .select2-choices {
+  font-size: 14px;
+}
+/* line 320, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.hashtags input,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.hashtags input,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.hashtags input {
+  width: 100%;
+  height: 31px;
+}
+/* line 324, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.hashtags .label,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.hashtags .label,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.hashtags .label {
+  margin: 5px;
+}
+/* line 326, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.hashtags .label .delete-tag,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.hashtags .label .delete-tag,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.hashtags .label .delete-tag {
+  cursor: pointer;
+}
+/* line 332, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.account-name input,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.account-name input,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.account-name input {
+  height: 31px;
+  width: 100%;
+}
+/* line 337, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.language-selection,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.language-selection,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.language-selection {
+  border-left: 1px solid #cecece;
+}
+/* line 340, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.language-selection select,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.language-selection select,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.language-selection select {
+  width: 100%;
+}
+/* line 344, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.url-selection,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.url-selection,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.url-selection {
+  text-align: left;
+}
+/* line 346, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.url-selection .pnr-url-button,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.url-selection .pnr-url-button,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.url-selection .pnr-url-button,
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.url-selection .custom-url-button,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.url-selection .custom-url-button,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.url-selection .custom-url-button {
+  margin-right: 8px;
+}
+/* line 349, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.url-selection .custom-url,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.url-selection .custom-url,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.url-selection .custom-url {
+  width: 80%;
+}
+/* line 353, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup.completion-well,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup.completion-well,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup.completion-well {
+  text-align: center;
+  border-left: 1px solid #cecece;
+}
+/* line 361, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .setup .table-text,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .setup .table-text,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .setup .table-text {
+  width: 100%;
+}
+/* line 365, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .social-account-setup .lang,
+#SocialMediaDistribution ul.social-list .linkedin-info .social-account-setup .lang,
+#SocialMediaDistribution ul.social-list .twitter-info .social-account-setup .lang {
+  margin: 0 .125em;
+  color: #fff;
+  width: 30px;
+  margin: 0 auto;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #aba8a8;
+  font-size: .975em;
+  padding: 1px 4px 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 381, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .accounts,
+#SocialMediaDistribution ul.social-list .linkedin-info .accounts,
+#SocialMediaDistribution ul.social-list .twitter-info .accounts {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 385, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .accounts .addAccount,
+#SocialMediaDistribution ul.social-list .linkedin-info .accounts .addAccount,
+#SocialMediaDistribution ul.social-list .twitter-info .accounts .addAccount {
+  float: none;
+  margin-top: 12px;
+}
+/* line 389, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .accounts .removeAccount,
+#SocialMediaDistribution ul.social-list .linkedin-info .accounts .removeAccount,
+#SocialMediaDistribution ul.social-list .twitter-info .accounts .removeAccount {
+  float: none;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+/* line 395, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .accounts .accountModal .modal-body,
+#SocialMediaDistribution ul.social-list .linkedin-info .accounts .accountModal .modal-body,
+#SocialMediaDistribution ul.social-list .twitter-info .accounts .accountModal .modal-body {
+  text-align: center;
+}
+/* line 400, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .accounts .hashtags .label.label-primary,
+#SocialMediaDistribution ul.social-list .linkedin-info .accounts .hashtags .label.label-primary,
+#SocialMediaDistribution ul.social-list .twitter-info .accounts .hashtags .label.label-primary {
+  background-color: #0094b3;
+}
+/* line 405, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .content,
+#SocialMediaDistribution ul.social-list .linkedin-info .content,
+#SocialMediaDistribution ul.social-list .twitter-info .content {
+  width: 60%;
+  display: inline-block;
+}
+/* line 406, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .content .image-button,
+#SocialMediaDistribution ul.social-list .linkedin-info .content .image-button,
+#SocialMediaDistribution ul.social-list .twitter-info .content .image-button {
+  float: left;
+  margin-top: 12px;
+}
+/* line 412, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .content textarea,
+#SocialMediaDistribution ul.social-list .linkedin-info .content textarea,
+#SocialMediaDistribution ul.social-list .twitter-info .content textarea {
+  margin-top: 16px;
+  width: 100%;
+  height: 150px;
+}
+/* line 417, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile.less */
+#SocialMediaDistribution ul.social-list .facebook-info .content .alert,
+#SocialMediaDistribution ul.social-list .linkedin-info .content .alert,
+#SocialMediaDistribution ul.social-list .twitter-info .content .alert {
+  width: 78%;
+  margin-left: 20%;
+  margin-top: 5px;
+}
+/* Customer-Applications */
+/* Customer Applications Starts Here */
+/* line 3, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications {
+  border: 0px;
+  width: 100%;
+}
+/* line 5, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .ds-select-one .btn {
+  width: 120px;
+}
+/* line 8, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .ds-select-one .role {
+  float: left;
+}
+/* line 11, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .ds-select-one .caret {
+  float: right;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .ds-select-one .selected {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #064f68;
+}
+/* line 21, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-selection-container {
+  margin: 0 0 0 15px;
+}
+/* line 26, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .billing-link {
+  margin-top: 25px!important;
+}
+/* line 28, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .billing-link span {
+  float: left;
+  text-align: left;
+  margin: 0 0 5px 0;
+  display: block;
+  font-size: 14px;
+  width: 255px;
+}
+/* line 38, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .hr-edgar-customer {
+  clear: both;
+  padding: 5px 0 5px 0;
+  margin: 5px 0 5px 0;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 2px;
+}
+/* line 48, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-customer-information-section {
+  margin: 5px 0 0 0;
+  position: relative;
+  padding: 5px 25px 25px 25px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #cceaf0;
+  clear: both;
+}
+/* line 57, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-customer-information-section h4 {
+  border-top: none!important;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border-bottom: solid 1px #0094b3;
+}
+/* line 64, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-customer-information-section h5 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+/* line 68, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-customer-information-section span {
+  font-size: 12px;
+  line-height: 14px;
+  color: #aba8a8;
+}
+/* line 73, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-customer-information-section span:hover {
+  color: #000;
+}
+/* line 76, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-customer-information-section section {
+  display: block;
+}
+/* line 79, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-customer-information-section section .save {
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* line 92, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-add-another-sro {
+  position: relative;
+  margin: 5px 0 0 0;
+}
+/* line 97, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .anchor-link {
+  cursor: pointer;
+}
+/* line 100, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-filing-signature {
+  background: #f2f2f2;
+}
+/* line 103, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-filing-sub-titles {
+  font-size: 16px!important;
+  margin: 20px 0 15px 0!important;
+}
+/* line 107, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-filing-filer-edit-link {
+  position: relative;
+  margin: 0 0 0 5px;
+  font-size: 12px;
+}
+/* line 112, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-filing-filer-name {
+  position: relative;
+  margin: 0 0 0 5px;
+  font-size: 12px;
+}
+/* line 117, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-filing-edit-field {
+  font-size: 12px!important;
+  overflow: hidden;
+  position: relative;
+}
+/* line 123, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edit-filer-information-float-right {
+  position: absolute;
+  right: 0px;
+  top: 15px;
+  display: inline-block;
+}
+/* line 129, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edit-filer-information-float-right .btn {
+  margin: 0 0 0 5px;
+}
+/* line 133, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edit-filer-information-float-right .close-edgar-customer-information {
+  margin: 0 5px 0 5px;
+  position: relative;
+  top: 8px;
+}
+/* line 138, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edit-filer-information-float-right .delete-edgar-filer-main {
+  margin: 0 28px 0 5px;
+  position: relative;
+}
+/* line 144, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-add-another-filer {
+  position: relative;
+  top: 10px;
+}
+/* line 148, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .add-new-filer-button {
+  margin: 15px 0 15px 0;
+  position: relative;
+}
+/* line 152, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-cancel-inline {
+  position: relative;
+  font-size: 12px;
+  top: 4px;
+}
+/* line 157, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-filer-text {
+  cursor: pointer;
+}
+/* line 160, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications #AddFilerForm {
+  width: 860px;
+  margin-left: -430px;
+}
+/* line 165, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .filer-form-padding {
+  padding: 25px;
+}
+/* line 168, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .input-append-sro-add {
+  margin: 10px 0 0 0;
+  padding: 0 10px 0 0;
+}
+/* line 172, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .validation-input {
+  border: solid 1px #ed1c24!important;
+}
+/* line 176, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .save-name-edgar {
+  -webkit-border-top-right-radius: 5px !important;
+  -webkit-border-bottom-right-radius: 5px!important;
+  -moz-border-radius-topright: 5px!important;
+  -moz-border-radius-bottomright: 5px!important;
+  border-top-right-radius: 5px!important;
+  border-bottom-right-radius: 5px!important;
+}
+/* line 184, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-filer-name-edit-field {
+  position: relative;
+  margin: 15px 0 0 0;
+}
+/* line 188, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .create-edgar-signature-area {
+  padding: 0 0 10px 0;
+}
+/* line 191, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .save-button-left {
+  margin: 0 5px 0 0!important;
+  float: left;
+}
+/* line 195, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .remove-added {
+  position: relative;
+  top: 10px;
+  color: #ed1c24;
+}
+/* line 200, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .remove-added:hover {
+  color: #ed1c24;
+}
+/* line 203, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .second-added-field {
+  width: 87%;
+}
+/* line 206, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .modal-body {
+  max-height: 600px;
+}
+/* line 209, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .modal-body-padding {
+  padding: 15px;
+}
+/* line 212, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-alert-area {
+  position: relative;
+}
+/* line 215, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .edgar-filer-info-table {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  clear: both;
+}
+/* line 221, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications h2 {
+  font-size: 1.5em;
+}
+/* line 227, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .accordion-group {
+  border: none;
+}
+/* line 232, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .wells.disabled {
+  background-color: #d8d8d8;
+}
+/* line 234, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .wells.disabled h4,
+#customer-applications .wells.disabled small,
+#customer-applications .wells.disabled a,
+#customer-applications .wells.disabled .accordion-toggle div {
+  color: #aba8a8;
+}
+/* line 237, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .wells.disabled div.applications-label {
+  width: 28%;
+}
+/* line 240, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .wells.disabled a.create_edgar_filer {
+  margin-top: 22px;
+  padding-right: 20px;
+  color: #0094b3;
+}
+/* line 250, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .wells.enabled a.create_edgar_filer {
+  display: none;
+}
+/* line 255, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .wells.pending {
+  background-color: #d8d8d8;
+}
+/* line 257, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .wells.pending div.applications-label {
+  width: 28%;
+}
+/* line 260, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .wells.pending a.create_edgar_filer {
+  margin-top: 22px;
+  padding-right: 20px;
+  color: #0094b3;
+}
+/* line 268, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells {
+  background: #ffffff;
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 19px;
+  margin-bottom: 15px;
+}
+/* line 276, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .accordion-inner {
+  border: none;
+  width: auto;
+  padding: 15px;
+}
+/* line 286, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .applications-header {
+  padding-bottom: 10px;
+  width: 100%;
+}
+/* line 292, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .applications-header .applications-label {
+  width: 75%;
+  float: left;
+}
+/* line 300, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .applications-header .applications-label h4 {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #363636;
+  margin-bottom: 0px;
+  border: 0px;
+}
+/* line 309, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .applications-header .accordion-toggle {
+  padding: 15px 0;
+}
+/* line 313, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .applications-header .applications-status-label {
+  font-size: 18px;
+  color: #0b6e89;
+  margin: 20px 0 0px 30px;
+  padding-left: 10px;
+  width: 44%;
+}
+/* line 321, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .applications-header .applications-status-label h4 {
+  border: 0px;
+}
+/* line 326, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .applications-header .applications-status-label span.status {
+  color: black;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+/* line 334, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .applications-header .expand-lab {
+  font-size: 1.1em;
+  color: #0094b3;
+  margin: 10px 0 0px 0;
+  padding-left: 10px;
+}
+/* line 342, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .applications-header .collapse-lab {
+  font-size: 1.1em;
+  color: #0094b3;
+  margin: 10px 0 0px 0;
+  padding-left: 10px;
+}
+/* line 351, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .applications-header .custom-settings-btn {
+  float: left;
+  margin: 20px 10px 20px 0;
+  cursor: pointer;
+}
+/* line 357, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .applications-header .custom-settings-btn a {
+  text-decoration: none;
+}
+/* line 360, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .applications-header .custom-settings-btn a i.ss-icon {
+  font-size: 18px;
+  text-decoration: none;
+}
+/* line 373, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .application-services {
+  padding: 10px 0 5px;
+  margin-bottom: 5px;
+}
+/* line 378, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .application-services .top h4 {
+  border-bottom: 0px;
+  border-top: 0px;
+  padding-top: 10px;
+  font-size: 18px;
+  color: #0094b3;
+}
+/* line 390, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .application-services h4 {
+  border-bottom: 0px;
+  font-size: 18px;
+  color: #0094b3;
+  padding-top: 10px;
+}
+/* line 401, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .application-services .application-service-label {
+  margin-bottom: 8px;
+  width: 60%;
+}
+/* line 406, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .application-services .application-service-label label {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 411, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .application-services .application-service-label p {
+  margin: 0 0 0;
+}
+/* line 419, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .application-services .application-service-status {
+  width: 30%;
+  display: inline-block;
+  text-align: right;
+}
+/* line 424, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+#customer-applications .customer-control-wells .application-services .application-service-status p {
+  color: #65a733;
+  font-size: medium;
+  text-transform: capitalize;
+}
+/* Customer Applications Ends Here */
+/* Adding a Customer Application starts here	 */
+/* line 441, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+.productData {
+  width: 100%;
+  background: white;
+  margin: 5px 0 5px 0;
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+  border: 1px solid #cceaf0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 449, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+.productData h4 {
+  float: left;
+  margin-bottom: 5px;
+}
+/* line 453, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+.productData p {
+  font-size: 12px;
+  line-height: 14px;
+  color: #aba8a8;
+}
+/* line 458, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+.productData .about {
+  width: 39%;
+  float: left;
+  padding-right: 10px;
+  margin: 10px 0 10px 10px;
+  border-right: 1px solid #cceaf0;
+}
+/* line 465, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+.productData .about h4 {
+  margin-top: 0em;
+  border-top: 0px;
+}
+/* line 470, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+.productData .status {
+  height: 75px;
+  width: 33%;
+  float: left;
+  display: block;
+  margin: 10px 0 10px 0;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-right: 1px solid #cceaf0;
+  color: #89a4aa;
+}
+/* line 483, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+.productData .status .btn-group .btn {
+  padding: 5px 10px;
+  margin: 0;
+}
+/* line 488, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+.productData .status .btn-group a.dropdown-toggle {
+  line-height: 36px;
+  text-transform: uppercase;
+  padding: 0 5px;
+  margin: 5px 0;
+  outline-offset: -2px;
+  display: block;
+  font-size: 20px;
+}
+/* line 497, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+.productData .status .btn-group a.dropdown-toggle:hover {
+  text-decoration: none;
+}
+/* line 501, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-applications.less */
+.productData .status .btn-group a.dropdown-toggle .caret {
+  margin-top: 14px;
+  margin-left: 2px;
+  opacity: .6;
+}
+/* Adding a Customer Application ends here	 */
+/* Global Settings */
+/* line 2, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.payment_history .payment_history_title {
+  line-height: 28px;
+}
+/* line 5, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.payment_history .payment_history_table {
+  margin-top: 27px;
+}
+/* line 8, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.payment_history .pass_check {
+  color: #65a733;
+  margin-left: 24px;
+}
+/* line 12, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.payment_history .fail_x {
+  color: #ed1c24;
+  margin-left: 24px;
+}
+/* line 19, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#socialDeleteModal {
+  width: 33%;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#socialDeleteModal #modal-body {
+  padding: 10px 20px 10px 20px;
+}
+/* line 29, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#socialLoginModal {
+  width: 29%;
+}
+/* line 31, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#socialLoginModal #modal-body {
+  padding: 20px 20px 7px 20px;
+}
+/* line 33, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#socialLoginModal #modal-body input {
+  width: 295px;
+}
+/* line 36, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#socialLoginModal #modal-body .social_login_name {
+  float: left;
+  margin: 7px 15px 0px 0px;
+}
+/* line 40, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#socialLoginModal #modal-body .social_password {
+  float: left;
+  margin: 7px 17px 0px 0px;
+}
+/* line 46, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#addPaymentProfile {
+  width: 34%;
+}
+/* line 48, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#addPaymentProfile #modal-body {
+  padding: 0px 20px;
+}
+/* line 51, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#addPaymentProfile #modal-body .input-group .payment_address1 {
+  margin-left: 3px;
+}
+/* line 54, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#addPaymentProfile #modal-body .input-group .payment_address2 {
+  margin-left: 12px;
+}
+/* line 57, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#addPaymentProfile #modal-body .input-group .payment_city {
+  width: 160px;
+}
+/* line 60, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#addPaymentProfile #modal-body .input-group .state_field {
+  width: 165px;
+}
+/* line 63, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#addPaymentProfile #modal-body .input-group .postal_field {
+  width: 100px;
+  margin-left: 5px;
+}
+/* line 67, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#addPaymentProfile #modal-body .input-group .payment_country {
+  width: 207px;
+}
+/* line 75, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+i {
+  vertical-align: middle;
+}
+/* line 77, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.global-settings-header .addPerson {
+  margin: 12px 0;
+}
+/* line 81, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings,
+#payment-settings {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+/* line 85, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings h2,
+#payment-settings h2 {
+  font-size: 1.5em;
+}
+/* line 91, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .eip_invoice,
+#payment-settings .eip_invoice {
+  position: relative;
+  top: -5px;
+}
+/* line 95, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings #payment_process,
+#payment-settings #payment_process {
+  position: relative;
+}
+/* line 99, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .payment_profile,
+#payment-settings .payment_profile {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: left 0.5s ease;
+  -moz-transition: left 0.5s ease;
+  -o-transition: left 0.5s ease;
+  transition: left 0.5s ease;
+}
+/* line 105, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .payment_profile.slideout,
+#payment-settings .payment_profile.slideout {
+  left: -900px;
+}
+/* line 108, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .payment_profile p,
+#payment-settings .payment_profile p {
+  margin-top: 25px;
+}
+/* line 111, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .payment_profile .payment_profile_new,
+#payment-settings .payment_profile .payment_profile_new {
+  text-decoration: none;
+}
+/* line 114, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .payment_profile .payment_profile_title,
+#payment-settings .payment_profile .payment_profile_title {
+  font-size: 14px;
+  border-bottom: 0;
+  display: inline;
+  line-height: 28px;
+}
+/* line 121, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .payment_invoice_holder,
+#payment-settings .payment_invoice_holder {
+  width: 100%;
+  position: absolute;
+  right: -900px;
+  top: 0;
+  -webkit-transition: right 0.5s ease;
+  -moz-transition: right 0.5s ease;
+  -o-transition: right 0.5s ease;
+  transition: right 0.5s ease;
+}
+/* line 127, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .payment_invoice_holder.slidein,
+#payment-settings .payment_invoice_holder.slidein {
+  right: 0;
+}
+/* line 129, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .payment_invoice_holder .payment_profile_title,
+#payment-settings .payment_invoice_holder .payment_profile_title {
+  font-size: 14px;
+  border-bottom: 0;
+  display: inline;
+  line-height: 28px;
+}
+/* line 135, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .payment_invoice_holder p,
+#payment-settings .payment_invoice_holder p {
+  margin-top: 25px;
+}
+/* line 138, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .payment_invoice_holder .payment_currency,
+#payment-settings .payment_invoice_holder .payment_currency {
+  display: inline;
+  margin-left: 10px;
+}
+/* line 143, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .payment_invoice_holder .currency_dropdown,
+#payment-settings .payment_invoice_holder .currency_dropdown {
+  width: 100px;
+}
+/* line 148, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-wells,
+#payment-settings .settings-wells {
+  width: 100%;
+  height: auto;
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  margin-bottom: 15px;
+  *zoom: 1;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+#global-settings .settings-wells:before,
+#payment-settings .settings-wells:before,
+#global-settings .settings-wells:after,
+#payment-settings .settings-wells:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+#global-settings .settings-wells:after,
+#payment-settings .settings-wells:after {
+  clear: both;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+#global-settings .settings-wells:before,
+#payment-settings .settings-wells:before,
+#global-settings .settings-wells:after,
+#payment-settings .settings-wells:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+#global-settings .settings-wells:after,
+#payment-settings .settings-wells:after {
+  clear: both;
+}
+/* line 155, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-wells .form-horizontal .control-label,
+#payment-settings .settings-wells .form-horizontal .control-label {
+  width: 100px;
+  font-size: 14px;
+}
+/* line 159, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-wells .form-horizontal .controls,
+#payment-settings .settings-wells .form-horizontal .controls {
+  margin-left: 115px;
+}
+/* line 162, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-wells .alert-success,
+#payment-settings .settings-wells .alert-success {
+  display: none;
+}
+/* line 166, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-wells .local_date-time .date-time,
+#payment-settings .settings-wells .local_date-time .date-time {
+  margin-top: -2px;
+  width: 29%;
+  font-size: 1.1em;
+  line-height: 1.2em;
+  color: #0094b3;
+}
+/* line 173, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-wells .local_date-time .date-time h6,
+#payment-settings .settings-wells .local_date-time .date-time h6 {
+  margin: 0;
+  color: #555555;
+  font-weight: normal;
+  font-size: .9em;
+  border: none;
+}
+/* line 183, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-wells .local_language,
+#payment-settings .settings-wells .local_language {
+  margin: -25px 120px 0px 0px;
+}
+/* line 186, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-wells .settings-label,
+#payment-settings .settings-wells .settings-label {
+  display: block;
+}
+/* line 189, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-wells .settings-label h3,
+#payment-settings .settings-wells .settings-label h3 {
+  font-size: 18px;
+  margin-top: 0;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #D8D8D8;
+  margin-bottom: .5em;
+}
+/* line 195, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-wells .settings-label h3 i,
+#payment-settings .settings-wells .settings-label h3 i {
+  vertical-align: middle;
+}
+/* line 201, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-wells .settings-label .settings-control,
+#payment-settings .settings-wells .settings-label .settings-control {
+  margin: 0 0 0 20px;
+}
+/* line 203, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-wells .settings-label .settings-control h4,
+#payment-settings .settings-wells .settings-label .settings-control h4 {
+  border-bottom: 0px;
+}
+/* line 207, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-wells .settings-label h4,
+#payment-settings .settings-wells .settings-label h4 {
+  font-size: 14px;
+}
+/* line 217, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-option-left,
+#payment-settings .settings-option-left {
+  width: 49%;
+}
+/* line 220, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-option-left .settings-label,
+#payment-settings .settings-option-left .settings-label {
+  display: block;
+}
+/* line 223, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-option-left .settings-label h4,
+#payment-settings .settings-option-left .settings-label h4 {
+  font-size: 1.5em;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #D8D8D8;
+  margin-bottom: 1.2em;
+}
+/* line 235, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-control-left,
+#payment-settings .settings-control-left {
+  margin: 0 0 0 20px;
+}
+/* line 237, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+#global-settings .settings-control-left h4,
+#payment-settings .settings-control-left h4 {
+  border-bottom: 0px;
+}
+/* line 243, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.settings-option-right {
+  width: 49%;
+}
+/* line 245, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.settings-option-right .settings-label-right {
+  display: block;
+}
+/* line 248, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.settings-option-right .settings-label-right h4 {
+  border-bottom: 1px solid #D8D8D8;
+}
+/* line 254, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.settings-option-right .settings-control-right {
+  margin: 0 0 0 20px;
+}
+/* line 257, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.settings-option-right .settings-control-right h4 {
+  border-bottom: 0px;
+}
+/* line 264, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.settings-label-right h4 {
+  font-size: 18px;
+  margin-top: 0;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #D8D8D8;
+  margin-bottom: .5em;
+}
+/* line 270, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.settings-label-right h4 i {
+  vertical-align: middle;
+}
+/* line 274, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.settings-label-right .form .input-group .input-group-addon {
+  display: inline-block;
+  float: left;
+  width: 20%;
+  margin-top: .4em;
+}
+/* line 284, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.form {
+  margin: 15px 0 5px 0;
+}
+/* line 286, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.form .input-group {
+  margin-bottom: 1em;
+}
+/* line 288, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.form .input-group .input-group-addon {
+  color: #555555;
+  font-weight: bold;
+}
+/* line 292, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.form .input-group .form-control {
+  width: 340px;
+}
+/* line 297, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.user-btns {
+  width: 100%;
+}
+/* line 299, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.user-btns .btn {
+  margin: 0 5px 0 0;
+}
+/* line 305, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.logo-uploads li {
+  float: left;
+  width: 48%;
+}
+/* line 308, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.logo-uploads li img {
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+/* line 315, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.load {
+  padding-bottom: 15px;
+}
+/* line 318, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.loaded {
+  margin: 0;
+  *zoom: 1;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.loaded:before,
+.loaded:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.loaded:after {
+  clear: both;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.loaded:before,
+.loaded:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.loaded:after {
+  clear: both;
+}
+/* line 321, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.loaded > li {
+  float: left;
+  width: 48% !important;
+  margin: 0 .5em;
+}
+/* line 325, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/global-settings.less */
+.loaded > li img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1em auto;
+}
+/* Customer's Edit Contact Modal  */
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-profile-modal {
+  width: 900px;
+  height: auto;
+  margin-left: -450px;
+}
+/* line 6, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-profile-modal i.ss-icon {
+  color: ##468847;
+  display: inline-block;
+  margin-right: 1.5em;
+}
+/* line 11, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-profile-modal .alert {
+  border-radius: 0;
+  display: none;
+  padding-left: 3em;
+}
+/* line 18, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-profile-modal .modal-body {
+  max-height: 700px;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-profile-modal .modal-body .tab-content {
+  width: auto;
+}
+/* line 25, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-profile-modal .modal-body .tab-content .tab-pane {
+  border: none;
+}
+/* line 31, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-profile-modal .modal-body .avatar {
+  margin: 0 0 0 2em;
+}
+/* line 35, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-profile-modal .modal-body .btn {
+  margin: 0 0 0 .1em;
+  background-color: #0094b3;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+}
+/* line 46, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-profile-modal .modal-body .delete {
+  margin: .4em 0 15px 1.4em;
+}
+/* line 48, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-profile-modal .modal-body .delete a {
+  color: #454545;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  text-decoration: underline;
+}
+/* line 56, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-profile-modal .modal-body .delete i.ss-icon {
+  color: #454545;
+  margin-right: .7em;
+}
+/* line 67, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-profile-modal .modal-footer .btn {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+}
+/* line 85, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-contact-form .form {
+  margin: 15px 0 5px 0;
+  width: 100%;
+}
+/* line 89, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-contact-form .form .left-input-group {
+  float: left;
+  width: 49%;
+}
+/* line 95, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-contact-form .form .right-input-group {
+  float: right;
+  margin: 0 15px 0 0;
+  width: 49%;
+}
+/* line 101, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-contact-form .form .input-group {
+  margin: 0 0em 1em 0;
+  float: right;
+}
+/* line 106, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-contact-form .form .input-group .input-group-addon {
+  display: inline;
+  color: #555555;
+  font-weight: bold;
+  margin: 0 .4em 0;
+}
+/* line 113, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-contact-form .form .input-group .form-control {
+  width: 260px;
+}
+/* line 116, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-contact-form .form .input-group .state_field {
+  width: 120px;
+}
+/* line 119, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-contact-form .form .input-group .postal_field {
+  width: 80px;
+}
+/* line 124, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-contact-form .form .input-group .input-group-btn .btn {
+  background: #444;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+}
+/* line 134, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-contact-form .form .input-group .input-group-btn .btn .caret {
+  color: #ffffff;
+}
+/* line 143, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/customer-profile-modal.less */
+#customer-contact-form .form .input-group .drop-dn .form-control {
+  width: 340px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin: 0;
+}
+/* Application Customization */
+/* line 3, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/application-customization.less */
+#application-customization .input-group {
+  margin: 1.5em 0;
+}
+/* line 6, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/application-customization.less */
+#application-customization .input-group select {
+  margin-left: 4em;
+}
+/* line 12, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/application-customization.less */
+#application-customization .input-group-addon {
+  color: #555555;
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 0 0 .5em;
+}
+/* line 19, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/application-customization.less */
+#application-customization input {
+  margin: 0 0 0 2em;
+  width: 340px;
+}
+/* line 24, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/application-customization.less */
+#application-customization .input-form-control {
+  display: inline;
+}
+/* line 28, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/application-customization.less */
+#application-customization .input-form-control .btn-primary {
+  background-color: #6eadc6;
+  font-size: 20px;
+  margin: 0 .5em 0 2.9em;
+}
+/* line 34, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/application-customization.less */
+#application-customization .input-form-control .btn-primary.active {
+  background-color: #0094b3;
+}
+/* Change Password */
+/* Tables */
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables.less */
+table,
+.faux-table {
+  background: #f5fcff;
+  border: 1px solid #cccccc;
+  color: #868686;
+  font-family: Arial;
+  font-size: 13px;
+}
+/* line 9, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables.less */
+table span,
+.faux-table span {
+  display: block;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables.less */
+thead,
+.thead {
+  background: linear-gradient(to bottom, #eeeeee, #dddddd) repeat-x scroll 0 0 #e7e7e7;
+}
+/* line 17, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables.less */
+thead th,
+.thead th,
+thead .th,
+.thead .th {
+  border-bottom: 2px solid #b3b3b3;
+  border-right: 1px solid #cccccc;
+}
+/* Table Redesign */
+/* line 3, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table .td,
+.faux-table .th {
+  display: block;
+  padding: 8px;
+  float: left;
+}
+/* line 10, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table header {
+  *zoom: 1;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.faux-table header:before,
+.faux-table header:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.faux-table header:after {
+  clear: both;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.faux-table header:before,
+.faux-table header:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.faux-table header:after {
+  clear: both;
+}
+/* line 13, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table header .th {
+  border-bottom: 2px solid #b3b3b3;
+  margin: 0;
+  text-shadow: 0px -1px 1px #ffffff;
+  font-size: 13px;
+}
+/* line 19, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table header .th:last-child {
+  box-shadow: none;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table header .th.active {
+  border-bottom: 2px solid #165788;
+}
+/* line 25, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table header .th.active i {
+  display: inline-block;
+}
+/* line 27, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table header .th a {
+  display: block;
+  color: #6b6a6a;
+  font-weight: bold;
+}
+/* line 32, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table header .th a:hover {
+  color: #4d4d4d;
+}
+/* line 34, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table header .th a i {
+  color: #aba8a8;
+  font-size: 11px;
+  padding-left: 4px;
+  display: none;
+  float: right;
+}
+/* line 46, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table .tbody {
+  margin: 0;
+  background-color: #fcfcfc;
+}
+/* line 50, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table .tbody .accordion-body {
+  width: 100%;
+  font-size: 0.9em;
+  *zoom: 1;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.faux-table .tbody .accordion-body:before,
+.faux-table .tbody .accordion-body:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.faux-table .tbody .accordion-body:after {
+  clear: both;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.faux-table .tbody .accordion-body:before,
+.faux-table .tbody .accordion-body:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.faux-table .tbody .accordion-body:after {
+  clear: both;
+}
+/* line 55, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table .tbody .accordion-body .note {
+  width: 53%;
+}
+/* line 56, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table .tbody .accordion-body .customer dl {
+  margin-left: 30px;
+}
+/* line 59, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table .tbody .tr {
+  display: block;
+  border-bottom: 1px solid #dddddd;
+  *zoom: 1;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.faux-table .tbody .tr:before,
+.faux-table .tbody .tr:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.faux-table .tbody .tr:after {
+  clear: both;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.faux-table .tbody .tr:before,
+.faux-table .tbody .tr:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.faux-table .tbody .tr:after {
+  clear: both;
+}
+/* line 64, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/tables_faux.less */
+.faux-table .tbody .tr:hover {
+  background-color: #f7f7f7;
+  background-image: -moz-linear-gradient(top, #f9f9f9, #f3f3f3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f9f9f9), to(#f3f3f3));
+  background-image: -webkit-linear-gradient(top, #f9f9f9, #f3f3f3);
+  background-image: -o-linear-gradient(top, #f9f9f9, #f3f3f3);
+  background-image: linear-gradient(to bottom, #f9f9f9, #f3f3f3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff9f9f9', endColorstr='#fff3f3f3', GradientType=0);
+}
+/* Landing Page */
+/* line 6, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .timezone-info {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+  border-bottom: 1px solid #aba8a8;
+  color: #555555;
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+/* line 15, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .timezone-info a:hover {
+  text-decoration: none;
+}
+/* line 20, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+  margin-top: 20px;
+}
+/* line 26, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .release-selection {
+  margin: 0 auto;
+}
+/* line 28, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .release-selection .well {
+  padding: 40px;
+  border: 1px solid #d8d8d8;
+  background: #f1f1f1;
+}
+/* line 33, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .release-selection .choose-message-center {
+  width: 35%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+  padding: 50px;
+}
+/* line 39, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .release-selection .choose-message-center h3 {
+  margin: 0px;
+  padding-bottom: 10px;
+}
+/* line 43, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .release-selection .choose-message-center .regulatory-filing-btn {
+  margin-left: 10px;
+}
+/* line 48, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container {
+  padding-top: 40px;
+  border-top: 3px solid #555555;
+  width: 100%;
+}
+/* line 52, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content {
+  margin: 0 auto;
+  width: 90%;
+}
+/* line 55, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content h2 {
+  font-size: 2em;
+  display: block;
+  line-height: 18px;
+  padding-bottom: 10px;
+}
+/* line 60, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content h2 i {
+  margin-right: 0.83em;
+  font-size: .4em;
+  border: 2px solid #555555;
+  color: #555555;
+  padding: 4px 5px 2px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+/* line 71, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content ul {
+  margin: 0 0 0 10px;
+}
+/* line 74, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content a:hover {
+  text-decoration: none;
+}
+/* line 77, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-contact {
+  float: left;
+  margin: 0 auto;
+  width: 33%;
+  padding-left: 3%;
+}
+/* line 82, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-contact h3 {
+  font-size: 1.25em;
+}
+/* line 85, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-contact ul {
+  padding-bottom: 16px;
+}
+/* line 87, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-contact ul li {
+  font-size: 14px;
+}
+/* line 93, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-updates-cont {
+  float: left;
+  margin: 0 auto;
+  width: 33%;
+  height: 430px;
+  border-right: 1px solid #d8d8d8;
+  border-left: 1px solid #d8d8d8;
+  padding: 0 3% 0 3%;
+}
+/* line 101, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-updates-cont .landing-page-updates {
+  margin: 0 auto !important;
+  width: 90%;
+}
+/* line 104, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-updates-cont .landing-page-updates .system-update-details {
+  padding-bottom: 24px;
+}
+/* line 106, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-updates-cont .landing-page-updates .system-update-details p {
+  padding-bottom: 0px;
+  margin: 0px;
+}
+/* line 110, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-updates-cont .landing-page-updates .system-update-details .system-update-link {
+  font-size: 14px;
+}
+/* line 112, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-updates-cont .landing-page-updates .system-update-details .system-update-link i {
+  margin-left: 5px;
+  margin-top: 2px;
+}
+/* line 120, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-resources {
+  float: left;
+  margin: 0 auto;
+  width: 30%;
+  padding-left: 8%;
+}
+/* line 125, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-resources .resource-information {
+  margin-bottom: 24px;
+}
+/* line 127, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-resources .resource-information h3 {
+  margin-top: 0px;
+}
+/* line 130, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-resources .resource-information p {
+  padding-bottom: 0px;
+  margin: 0px;
+}
+/* line 134, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-resources .resource-information .resource-full-link {
+  font-size: 14px;
+}
+/* line 136, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/app_files/landing-page.less */
+.no-content .landing-page-nocontent .landing-page-content-container .landing-page-content .landing-page-resources .resource-information .resource-full-link i {
+  margin-left: 5px;
+  margin-top: 2px;
+}
+/* line 3, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/components/ds-upload.less */
+.ds-upload .load input[type="file"] {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 0;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  cursor: pointer;
+  text-indent: -1000px;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/components/ds-upload.less */
+.ds-upload .load span {
+  display: block;
+  margin: 2.5em 0 .5em ;
+}
+/* line 19, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/components/ds-upload.less */
+.ds-upload .load.small-load .well {
+  height: 100px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 23, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/components/ds-upload.less */
+.ds-upload .load.small-load span {
+  margin-top: .5em;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 28, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/components/ds-upload.less */
+.ds-upload .load .well {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  height: 150px;
+  border: 1px solid #d8d8d8;
+  background: #e7e7e7;
+  width: 100%;
+}
+/* line 39, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/components/ds-upload.less */
+.ds-upload .alert,
+.ds-upload .loaded > li {
+  width: 98%;
+}
+/* line 43, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/components/ds-upload.less */
+.ds-upload .loaded > li {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ededed;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  *zoom: 1;
+  margin: .75em .75em 0 0;
+}
+/* line 15, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/wells.less */
+.ds-upload .loaded > li blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.ds-upload .loaded > li:before,
+.ds-upload .loaded > li:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.ds-upload .loaded > li:after {
+  clear: both;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.ds-upload .loaded > li:before,
+.ds-upload .loaded > li:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.ds-upload .loaded > li:after {
+  clear: both;
+}
+/* line 47, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/components/ds-upload.less */
+.ds-upload .loaded > li .filename {
+  float: left;
+  margin-right: 2%;
+}
+/* line 48, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/components/ds-upload.less */
+.ds-upload .loaded > li .ds-select {
+  float: right;
+}
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/components/ds-upload.less */
+.ds-upload .loaded > li > button {
+  display: none;
+}
+/* line 7, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/utilities.less */
+.pull-right {
+  float: right;
+}
+/* line 10, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/utilities.less */
+.pull-left {
+  float: left;
+}
+/* line 15, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/utilities.less */
+.hide {
+  display: none;
+}
+/* line 18, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/utilities.less */
+.show {
+  display: block;
+}
+/* line 23, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/utilities.less */
+.invisible {
+  visibility: hidden;
+}
+/* line 28, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/utilities.less */
+.affix {
+  position: fixed;
+}
+/* line 33, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/utilities.less */
+.clearfix {
+  *zoom: 1;
+}
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+.clearfix:after {
+  clear: both;
+}
+/* line 37, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/utilities.less */
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+/* line 41, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/utilities.less */
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*!
+ * Bootstrap Responsive v2.3.0
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+@-ms-viewport {
+  width: device-width;
+}
+/* line 15, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+/* line 23, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+.visible-phone {
+  display: none !important;
+}
+/* line 24, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+.visible-tablet {
+  display: none !important;
+}
+/* line 27, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+.hidden-desktop {
+  display: none !important;
+}
+/* line 28, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+.visible-desktop {
+  display: inherit !important;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 33, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  /* line 34, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+  .visible-desktop {
+    display: none !important ;
+  }
+  /* line 36, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+  .visible-tablet {
+    display: inherit !important;
+  }
+  /* line 38, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+  .hidden-tablet {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 44, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  /* line 45, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+  .visible-desktop {
+    display: none !important;
+  }
+  /* line 47, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+  .visible-phone {
+    display: inherit !important;
+  }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+  .hidden-phone {
+    display: none !important;
+  }
+}
+/* line 53, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+.visible-print {
+  display: none !important;
+}
+@media print {
+  /* line 57, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+  .visible-print {
+    display: inherit !important;
+  }
+  /* line 58, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-utilities.less */
+  .hidden-print {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 630, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row {
+    margin-left: -30px;
+    *zoom: 1;
+  }
+  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row:before,
+  .row:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  /* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row:after {
+    clear: both;
+  }
+  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row:before,
+  .row:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  /* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row:after {
+    clear: both;
+  }
+  /* line 635, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  [class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+  }
+  /* line 642, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .container,
+  .navbar-static-top .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: 1170px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span12 {
+    width: 1170px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span11 {
+    width: 1070px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span10 {
+    width: 970px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span9 {
+    width: 870px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span8 {
+    width: 770px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span7 {
+    width: 670px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span6 {
+    width: 570px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span5 {
+    width: 470px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span4 {
+    width: 370px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span3 {
+    width: 270px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span2 {
+    width: 170px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span1 {
+    width: 70px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset12 {
+    margin-left: 1230px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset11 {
+    margin-left: 1130px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset10 {
+    margin-left: 1030px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset9 {
+    margin-left: 930px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset8 {
+    margin-left: 830px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset7 {
+    margin-left: 730px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset6 {
+    margin-left: 630px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset5 {
+    margin-left: 530px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset4 {
+    margin-left: 430px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset3 {
+    margin-left: 330px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset2 {
+    margin-left: 230px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset1 {
+    margin-left: 130px;
+  }
+  /* line 683, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid {
+    width: 100%;
+    *zoom: 1;
+  }
+  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid:before,
+  .row-fluid:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  /* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid:after {
+    clear: both;
+  }
+  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid:before,
+  .row-fluid:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  /* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid:after {
+    clear: both;
+  }
+  /* line 686, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid [class*="span"] {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 2.56410256%;
+    *margin-left: 2.51091107%;
+  }
+  /* line 692, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid [class*="span"]:first-child {
+    margin-left: 0;
+  }
+  /* line 697, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .controls-row [class*="span"] + [class*="span"] {
+    margin-left: 2.56410256%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span12 {
+    width: 100%;
+    *width: 99.94680851%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span11 {
+    width: 91.45299145%;
+    *width: 91.39979996%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span10 {
+    width: 82.90598291%;
+    *width: 82.85279142%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span9 {
+    width: 74.35897436%;
+    *width: 74.30578287%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span8 {
+    width: 65.81196581%;
+    *width: 65.75877432%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span7 {
+    width: 57.26495726%;
+    *width: 57.21176578%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span6 {
+    width: 48.71794872%;
+    *width: 48.66475723%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span5 {
+    width: 40.17094017%;
+    *width: 40.11774868%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span4 {
+    width: 31.62393162%;
+    *width: 31.57074013%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span3 {
+    width: 23.07692308%;
+    *width: 23.02373159%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span2 {
+    width: 14.52991453%;
+    *width: 14.47672304%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span1 {
+    width: 5.98290598%;
+    *width: 5.92971449%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset12 {
+    margin-left: 105.12820513%;
+    *margin-left: 105.02182215%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset12:first-child {
+    margin-left: 102.56410256%;
+    *margin-left: 102.45771959%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset11 {
+    margin-left: 96.58119658%;
+    *margin-left: 96.4748136%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset11:first-child {
+    margin-left: 94.01709402%;
+    *margin-left: 93.91071104%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset10 {
+    margin-left: 88.03418803%;
+    *margin-left: 87.92780506%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset10:first-child {
+    margin-left: 85.47008547%;
+    *margin-left: 85.36370249%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset9 {
+    margin-left: 79.48717949%;
+    *margin-left: 79.38079651%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset9:first-child {
+    margin-left: 76.92307692%;
+    *margin-left: 76.81669394%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset8 {
+    margin-left: 70.94017094%;
+    *margin-left: 70.83378796%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset8:first-child {
+    margin-left: 68.37606838%;
+    *margin-left: 68.2696854%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset7 {
+    margin-left: 62.39316239%;
+    *margin-left: 62.28677941%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset7:first-child {
+    margin-left: 59.82905983%;
+    *margin-left: 59.72267685%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset6 {
+    margin-left: 53.84615385%;
+    *margin-left: 53.73977087%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset6:first-child {
+    margin-left: 51.28205128%;
+    *margin-left: 51.1756683%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset5 {
+    margin-left: 45.2991453%;
+    *margin-left: 45.19276232%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset5:first-child {
+    margin-left: 42.73504274%;
+    *margin-left: 42.62865976%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset4 {
+    margin-left: 36.75213675%;
+    *margin-left: 36.64575377%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset4:first-child {
+    margin-left: 34.18803419%;
+    *margin-left: 34.08165121%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset3 {
+    margin-left: 28.20512821%;
+    *margin-left: 28.09874523%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset3:first-child {
+    margin-left: 25.64102564%;
+    *margin-left: 25.53464266%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset2 {
+    margin-left: 19.65811966%;
+    *margin-left: 19.55173668%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset2:first-child {
+    margin-left: 17.09401709%;
+    *margin-left: 16.98763412%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset1 {
+    margin-left: 11.11111111%;
+    *margin-left: 11.00472813%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset1:first-child {
+    margin-left: 8.54700855%;
+    *margin-left: 8.44062557%;
+  }
+  /* line 720, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input,
+  textarea,
+  .uneditable-input {
+    margin-left: 0;
+  }
+  /* line 727, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .controls-row [class*="span"] + [class*="span"] {
+    margin-left: 30px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span12,
+  textarea.span12,
+  .uneditable-input.span12 {
+    width: 1156px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span11,
+  textarea.span11,
+  .uneditable-input.span11 {
+    width: 1056px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span10,
+  textarea.span10,
+  .uneditable-input.span10 {
+    width: 956px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span9,
+  textarea.span9,
+  .uneditable-input.span9 {
+    width: 856px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span8,
+  textarea.span8,
+  .uneditable-input.span8 {
+    width: 756px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span7,
+  textarea.span7,
+  .uneditable-input.span7 {
+    width: 656px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span6,
+  textarea.span6,
+  .uneditable-input.span6 {
+    width: 556px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span5,
+  textarea.span5,
+  .uneditable-input.span5 {
+    width: 456px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span4,
+  textarea.span4,
+  .uneditable-input.span4 {
+    width: 356px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span3,
+  textarea.span3,
+  .uneditable-input.span3 {
+    width: 256px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span2,
+  textarea.span2,
+  .uneditable-input.span2 {
+    width: 156px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span1,
+  textarea.span1,
+  .uneditable-input.span1 {
+    width: 56px;
+  }
+  /* line 18, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-1200px-min.less */
+  .thumbnails {
+    margin-left: -30px;
+  }
+  /* line 21, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-1200px-min.less */
+  .thumbnails > li {
+    margin-left: 30px;
+  }
+  /* line 24, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-1200px-min.less */
+  .row-fluid .thumbnails {
+    margin-left: 0;
+  }
+  /* line 27, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-1200px-min.less */
+  body {
+    padding-top: 3.5em;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 630, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row {
+    margin-left: -20px;
+    *zoom: 1;
+  }
+  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row:before,
+  .row:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  /* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row:after {
+    clear: both;
+  }
+  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row:before,
+  .row:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  /* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row:after {
+    clear: both;
+  }
+  /* line 635, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  [class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+  }
+  /* line 642, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .container,
+  .navbar-static-top .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: 724px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span12 {
+    width: 724px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span11 {
+    width: 662px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span10 {
+    width: 600px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span9 {
+    width: 538px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span8 {
+    width: 476px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span7 {
+    width: 414px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span6 {
+    width: 352px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span5 {
+    width: 290px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span4 {
+    width: 228px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span3 {
+    width: 166px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span2 {
+    width: 104px;
+  }
+  /* line 611, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .span1 {
+    width: 42px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset12 {
+    margin-left: 764px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset11 {
+    margin-left: 702px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset10 {
+    margin-left: 640px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset9 {
+    margin-left: 578px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset8 {
+    margin-left: 516px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset7 {
+    margin-left: 454px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset6 {
+    margin-left: 392px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset5 {
+    margin-left: 330px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset4 {
+    margin-left: 268px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset3 {
+    margin-left: 206px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset2 {
+    margin-left: 144px;
+  }
+  /* line 617, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .offset1 {
+    margin-left: 82px;
+  }
+  /* line 683, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid {
+    width: 100%;
+    *zoom: 1;
+  }
+  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid:before,
+  .row-fluid:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  /* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid:after {
+    clear: both;
+  }
+  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid:before,
+  .row-fluid:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  /* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid:after {
+    clear: both;
+  }
+  /* line 686, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid [class*="span"] {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 2.76243094%;
+    *margin-left: 2.70923945%;
+  }
+  /* line 692, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid [class*="span"]:first-child {
+    margin-left: 0;
+  }
+  /* line 697, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .controls-row [class*="span"] + [class*="span"] {
+    margin-left: 2.76243094%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span12 {
+    width: 100%;
+    *width: 99.94680851%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span11 {
+    width: 91.43646409%;
+    *width: 91.3832726%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span10 {
+    width: 82.87292818%;
+    *width: 82.81973669%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span9 {
+    width: 74.30939227%;
+    *width: 74.25620078%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span8 {
+    width: 65.74585635%;
+    *width: 65.69266486%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span7 {
+    width: 57.18232044%;
+    *width: 57.12912895%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span6 {
+    width: 48.61878453%;
+    *width: 48.56559304%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span5 {
+    width: 40.05524862%;
+    *width: 40.00205713%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span4 {
+    width: 31.49171271%;
+    *width: 31.43852122%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span3 {
+    width: 22.9281768%;
+    *width: 22.87498531%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span2 {
+    width: 14.36464088%;
+    *width: 14.31144939%;
+  }
+  /* line 656, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .span1 {
+    width: 5.80110497%;
+    *width: 5.74791348%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset12 {
+    margin-left: 105.52486188%;
+    *margin-left: 105.4184789%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset12:first-child {
+    margin-left: 102.76243094%;
+    *margin-left: 102.65604796%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset11 {
+    margin-left: 96.96132597%;
+    *margin-left: 96.85494299%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset11:first-child {
+    margin-left: 94.19889503%;
+    *margin-left: 94.09251205%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset10 {
+    margin-left: 88.39779006%;
+    *margin-left: 88.29140708%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset10:first-child {
+    margin-left: 85.63535912%;
+    *margin-left: 85.52897614%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset9 {
+    margin-left: 79.83425414%;
+    *margin-left: 79.72787116%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset9:first-child {
+    margin-left: 77.0718232%;
+    *margin-left: 76.96544023%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset8 {
+    margin-left: 71.27071823%;
+    *margin-left: 71.16433525%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset8:first-child {
+    margin-left: 68.50828729%;
+    *margin-left: 68.40190431%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset7 {
+    margin-left: 62.70718232%;
+    *margin-left: 62.60079934%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset7:first-child {
+    margin-left: 59.94475138%;
+    *margin-left: 59.8383684%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset6 {
+    margin-left: 54.14364641%;
+    *margin-left: 54.03726343%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset6:first-child {
+    margin-left: 51.38121547%;
+    *margin-left: 51.27483249%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset5 {
+    margin-left: 45.5801105%;
+    *margin-left: 45.47372752%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset5:first-child {
+    margin-left: 42.81767956%;
+    *margin-left: 42.71129658%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset4 {
+    margin-left: 37.01657459%;
+    *margin-left: 36.91019161%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset4:first-child {
+    margin-left: 34.25414365%;
+    *margin-left: 34.14776067%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset3 {
+    margin-left: 28.45303867%;
+    *margin-left: 28.3466557%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset3:first-child {
+    margin-left: 25.69060773%;
+    *margin-left: 25.58422476%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset2 {
+    margin-left: 19.88950276%;
+    *margin-left: 19.78311978%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset2:first-child {
+    margin-left: 17.12707182%;
+    *margin-left: 17.02068884%;
+  }
+  /* line 662, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset1 {
+    margin-left: 11.32596685%;
+    *margin-left: 11.21958387%;
+  }
+  /* line 663, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .row-fluid .offset1:first-child {
+    margin-left: 8.56353591%;
+    *margin-left: 8.45715293%;
+  }
+  /* line 720, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input,
+  textarea,
+  .uneditable-input {
+    margin-left: 0;
+  }
+  /* line 727, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  .controls-row [class*="span"] + [class*="span"] {
+    margin-left: 20px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span12,
+  textarea.span12,
+  .uneditable-input.span12 {
+    width: 710px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span11,
+  textarea.span11,
+  .uneditable-input.span11 {
+    width: 648px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span10,
+  textarea.span10,
+  .uneditable-input.span10 {
+    width: 586px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span9,
+  textarea.span9,
+  .uneditable-input.span9 {
+    width: 524px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span8,
+  textarea.span8,
+  .uneditable-input.span8 {
+    width: 462px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span7,
+  textarea.span7,
+  .uneditable-input.span7 {
+    width: 400px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span6,
+  textarea.span6,
+  .uneditable-input.span6 {
+    width: 338px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span5,
+  textarea.span5,
+  .uneditable-input.span5 {
+    width: 276px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span4,
+  textarea.span4,
+  .uneditable-input.span4 {
+    width: 214px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span3,
+  textarea.span3,
+  .uneditable-input.span3 {
+    width: 152px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span2,
+  textarea.span2,
+  .uneditable-input.span2 {
+    width: 90px;
+  }
+  /* line 711, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/mixins.less */
+  input.span1,
+  textarea.span1,
+  .uneditable-input.span1 {
+    width: 28px;
+  }
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-768px-979px.less */
+body {
+  padding-top: 3.5em;
+}
+@media (max-width: 767px) {
+  /* line 9, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .navbar-fixed-top,
+  .navbar-fixed-bottom,
+  .navbar-static-top {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  /* line 21, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .container-fluid {
+    padding: 0;
+  }
+  /* line 29, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .dl-horizontal dt {
+    float: none;
+    clear: none;
+    width: auto;
+    text-align: left;
+  }
+  /* line 35, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .dl-horizontal dd {
+    margin-left: 0;
+  }
+  /* line 43, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .container {
+    width: auto;
+  }
+  /* line 47, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .row-fluid {
+    width: 100%;
+  }
+  /* line 51, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .row,
+  .thumbnails {
+    margin-left: 0;
+  }
+  /* line 55, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .thumbnails > li {
+    float: none;
+    margin-left: 0;
+  }
+  /* line 60, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  [class*="span"],
+  .uneditable-input[class*="span"],
+  .row-fluid [class*="span"] {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 69, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .span12,
+  .row-fluid .span12 {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 74, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .row-fluid [class*="offset"]:first-child {
+    margin-left: 0;
+  }
+  /* line 81, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .input-large,
+  .input-xlarge,
+  .input-xxlarge,
+  input[class*="span"],
+  select[class*="span"],
+  textarea[class*="span"],
+  .uneditable-input {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* line 91, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .input-prepend input,
+  .input-append input,
+  .input-prepend input[class*="span"],
+  .input-append input[class*="span"] {
+    display: inline-block;
+    width: auto;
+  }
+  /* line 98, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .controls-row [class*="span"] + [class*="span"] {
+    margin-left: 0;
+  }
+  /* line 103, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .modal {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    width: auto;
+    margin: 0;
+  }
+  /* line 110, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .modal.fade {
+    top: -100px;
+  }
+  /* line 111, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .modal.fade.in {
+    top: 20px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 124, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .nav-collapse {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  /* line 129, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .page-header h1 small {
+    display: block;
+    line-height: 1.25em;
+  }
+  /* line 135, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  input[type="checkbox"],
+  input[type="radio"] {
+    border: 1px solid #ccc;
+  }
+  /* line 142, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .form-horizontal .control-label {
+    float: none;
+    width: auto;
+    padding-top: 0;
+    text-align: left;
+  }
+  /* line 149, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .form-horizontal .controls {
+    margin-left: 0;
+  }
+  /* line 153, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .form-horizontal .control-list {
+    padding-top: 0;
+  }
+  /* line 157, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .form-horizontal .form-actions {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* line 165, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .media .pull-left,
+  .media .pull-right {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  /* line 172, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .media-object {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  /* line 178, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .modal {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+  }
+  /* line 183, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .modal-header .close {
+    padding: 10px;
+    margin: -10px;
+  }
+  /* line 189, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-767px-max.less */
+  .carousel-caption {
+    position: static;
+  }
+}
+@media (max-width: 979px) {
+  /* line 13, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  body {
+    padding-top: 0;
+  }
+  /* line 17, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+    position: static;
+  }
+  /* line 21, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .navbar-fixed-top {
+    margin-bottom: 1.25em;
+  }
+  /* line 24, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .navbar-fixed-bottom {
+    margin-top: 1.25em;
+  }
+  /* line 27, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .navbar-fixed-top .navbar-inner,
+  .navbar-fixed-bottom .navbar-inner {
+    padding: 5px;
+  }
+  /* line 31, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .navbar .container {
+    width: auto;
+    padding: 0;
+  }
+  /* line 36, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .navbar .brand {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 0 0 -5px;
+  }
+  /* line 45, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse {
+    clear: both;
+  }
+  /* line 49, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .nav {
+    float: none;
+    margin: 0 0 0.625em;
+  }
+  /* line 53, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .nav > li {
+    float: none;
+  }
+  /* line 56, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .nav > li > a {
+    margin-bottom: 2px;
+  }
+  /* line 59, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .nav > .divider-vertical {
+    display: none;
+  }
+  /* line 62, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .nav .nav-header {
+    color: #ffffff;
+    text-shadow: none;
+  }
+  /* line 67, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .nav > li > a,
+  .nav-collapse .dropdown-menu a {
+    padding: 9px 15px;
+    font-weight: bold;
+    color: #aba8a8;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+  /* line 75, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .btn {
+    padding: 4px 10px 4px;
+    font-weight: normal;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  }
+  /* line 80, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .dropdown-menu li + li a {
+    margin-bottom: 2px;
+  }
+  /* line 83, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .nav > li > a:hover,
+  .nav-collapse .nav > li > a:focus,
+  .nav-collapse .dropdown-menu a:hover,
+  .nav-collapse .dropdown-menu a:focus {
+    background-color: #272727;
+  }
+  /* line 89, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .navbar-inverse .nav-collapse .nav > li > a,
+  .navbar-inverse .nav-collapse .dropdown-menu a {
+    color: #d8d8d8;
+  }
+  /* line 93, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .navbar-inverse .nav-collapse .nav > li > a:hover,
+  .navbar-inverse .nav-collapse .nav > li > a:focus,
+  .navbar-inverse .nav-collapse .dropdown-menu a:hover,
+  .navbar-inverse .nav-collapse .dropdown-menu a:focus {
+    background-color: #272727;
+  }
+  /* line 100, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse.in .btn-group {
+    margin-top: 5px;
+    padding: 0;
+  }
+  /* line 105, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .dropdown-menu {
+    position: static;
+    top: auto;
+    left: auto;
+    float: none;
+    display: none;
+    max-width: none;
+    margin: 0 15px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  /* line 119, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .open > .dropdown-menu {
+    display: block;
+  }
+  /* line 123, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .dropdown-menu:before,
+  .nav-collapse .dropdown-menu:after {
+    display: none;
+  }
+  /* line 127, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .dropdown-menu .divider {
+    display: none;
+  }
+  /* line 131, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .nav > li > .dropdown-menu:before,
+  .nav-collapse .nav > li > .dropdown-menu:after {
+    display: none;
+  }
+  /* line 137, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse .navbar-form,
+  .nav-collapse .navbar-search {
+    float: none;
+    padding: 0.625em 15px;
+    margin: 0.625em 0;
+    border-top: 1px solid #272727;
+    border-bottom: 1px solid #272727;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1);
+  }
+  /* line 146, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .navbar-inverse .nav-collapse .navbar-form,
+  .navbar-inverse .nav-collapse .navbar-search {
+    border-top-color: #272727;
+    border-bottom-color: #272727;
+  }
+  /* line 152, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .navbar .nav-collapse .nav.pull-right {
+    float: none;
+    margin-left: 0;
+  }
+  /* line 157, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse,
+  .nav-collapse.collapse {
+    overflow: hidden;
+    height: 0;
+  }
+  /* line 163, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .navbar .btn-navbar {
+    display: block;
+  }
+  /* line 169, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .navbar-static .navbar-inner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 979px + 1) {
+  /* line 184, /Applications/XAMPP/xamppfiles/htdocs/myadmin.dev/source/_resources/less/global/responsive-navbar.less */
+  .nav-collapse.collapse {
+    height: auto !important;
+    overflow: visible !important;
+  }
+}

@@ -1,0 +1,85 @@
+#customer-profile-Modal {
+  width: 720px;
+}
+#customer-profile-Modal i.ss-icon {
+  color: ##468847;
+  display: inline-block;
+  margin-right: 1.5em;
+}
+#customer-profile-Modal .alert {
+  border-radius: 0;
+  padding-left: 3em;
+}
+#customer-profile-Modal .modal-body .tab-content {
+  width: auto;
+  float: right;
+}
+#customer-profile-Modal .modal-body .tab-content .tab-pane {
+  border: none;
+}
+#customer-profile-Modal .modal-body .avatar {
+  margin: 0 0 0 2em;
+}
+#customer-profile-Modal .modal-body .btn {
+  margin: 0 0 0 .1em;
+  background-color: #0094b3;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+}
+#customer-profile-Modal .modal-body .delete {
+  margin: .4em 0 15px 1.4em;
+}
+#customer-profile-Modal .modal-body .delete a {
+  color: #454545;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  text-decoration: underline;
+}
+#customer-profile-Modal .modal-body .delete i.ss-icon {
+  color: #454545;
+  margin-right: .7em;
+}
+#customer-profile-Modal .modal-footer .btn {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+}
+#customer-contact-form .form {
+  background-color: purple;
+  margin: 15px 0 5px 0;
+}
+#customer-contact-form .form .input-group {
+  margin: 0 2em 1em 0;
+}
+#customer-contact-form .form .input-group .input-group-addon {
+  color: gray;
+  font-weight: bold;
+  margin: 0 0.4em 0;
+}
+#customer-contact-form .form .input-group .form-control {
+  width: 340px;
+}
+#customer-contact-form .form .input-group .input-group-btn .btn {
+  background: #444;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 8px 12px 8px 12px;
+}
+#customer-contact-form .form .input-group .input-group-btn .btn .caret {
+  color: #ffffff;
+}
+#customer-contact-form .form .input-group .drop-dn .form-control {
+  width: 340px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin: 0;
+}

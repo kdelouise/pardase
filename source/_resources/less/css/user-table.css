@@ -1,0 +1,53 @@
+.user-table .main {
+  width: 23%;
+}
+.user-table .address {
+  width: 32%;
+}
+.user-table .date-added {
+  width: 20%;
+}
+.user-table .addtl {
+  width: 25%;
+}
+.user-table .thead .th.btn-group {
+  white-space: normal;
+}
+.user-table .tr dt {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+.user-table .tr dd {
+  margin-left: 0;
+}
+.user-table .tr dd:first-of-type {
+  margin-top: 1em;
+}
+.user-table .tr dd span {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  color: #555555;
+}
+.user-table .tr .arrow-down {
+  float: right;
+  margin-top: 8px;
+}
+.user-table .tr .edit-buttons {
+  float: right;
+  margin-top: 1em;
+  margin-bottom: 8px;
+  width: 125px;
+}
+.user-table .tr .edit-buttons .btn-mini-login {
+  font-size: 0.75em;
+  line-height: 1.1em;
+  width: 119px;
+}
+.user-table .td {
+  margin-bottom: 0;
+}
+.user-table .tbody .addtl {
+  width: 20%;
+}

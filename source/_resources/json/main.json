@@ -1,0 +1,5 @@
+var person = {
+	firstName: "teesetts",
+	lastName: "Coenraets",
+	blogURL: "http://coenraets.org"
+};

@@ -1,0 +1,56 @@
+//
+// Layouts
+// --------------------------------------------------
+
+
+// Container (centered, fixed-width layouts)
+.container {
+  .container-fixed();
+}
+
+// Fluid layouts (left aligned, with sidebar, min- & max-width content)
+.container-fluid {
+  padding-right: @gridGutterWidth;
+  padding-left: @gridGutterWidth;
+  .clearfix();
+	
+	&.content			{ /*margin-top: @navbarHeight+40;*/ }
+}
+
+                    
+.full											{width: 98%;}
+.half											{width: 48%;}
+                    
+/* Golden Ratio */ 
+/*.golden-sm								{width: 34.2%;}
+.golden-lrg								{width: 61.8%;}*/
+                 
+/* 3 Columns */     
+.one-third								{width: 31.3333333%;}
+.two-thirds								{width: 64.6666667%;}
+                    
+/* 4 Columns */     
+.one-fourth								{width: 23%;}
+.three-fourths						{width: 73%;}
+                    
+/* 5 Columns */     
+.one-fifth								{width: 18%;}
+.two-fifths								{width: 38%;}
+.three-fifths							{width: 58%;}
+.four-fifths							{width: 78%;}
+
+/* 6 Columns */
+.one-sixth								{width:14.6666667%;}
+.five-sixths							{width:81.33333%;}
+                    
+.right										{float: right;}
+.left											{float: left; margin-right: 2%;}
+                    
+/* Clearfix for clearing floated elements */ 
+.clearfix:after, header[role="masthead"]:after, nav[role="navigation"]:after
+                          {content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+* html .clearfix    			{zoom: 1;}
+*:first-child+html .clearfix
+													{zoom: 1;}
+
+#Content > *:last-child		{margin-right: 0;}
