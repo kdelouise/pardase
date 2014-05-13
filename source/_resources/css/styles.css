@@ -11930,10 +11930,6 @@ a.badge:focus {
   list-style-type: none;
 }
 #landing .landing-nav-links ul {
-  position: absolute;
-  z-index: 100;
-  width: 90%;
-  margin: 0px auto;
   margin-top: 30px;
   margin-bottom: 20px;
   font-size: .8em;
@@ -11944,10 +11940,17 @@ a.badge:focus {
   display: inline;
 }
 #landing .landing-page-img-container {
+  margin-top: -100px;
   padding: 0;
-  border: 1px solid black;
   height: 400px;
-  background-color: #ffcc7f;
+  background-color: #73d2e2;
+}
+#landing .landing-current-imgs {
+  text-align: center;
+}
+.footer-sitemap-container {
+  height: 200px;
+  background-color: #ffe5bf;
 }
 .ds-upload .load input[type="file"] {
   width: 100%;

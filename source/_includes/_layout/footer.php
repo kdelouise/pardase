@@ -84,6 +84,8 @@
 	    }
 
     ?>
-	
+	<div class="footer-sitemap-container">
+		This will be our footer and siteap - email contact about social meadia etc
+	</div>
   </body>
 </html>

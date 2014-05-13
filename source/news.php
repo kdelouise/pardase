@@ -25,7 +25,7 @@
 	<div class="landing-page-nav">
 		<div class="landing-nav-links">
 			<ul>
-				<li><a href="news.ph"> PARDASE NEWS</a></li>
+				<li><a href="#"> PARDASE NEWS</a></li>
 				<li><a href="#"> LOOKBOOK</a></li>
 				<li><a href="#"> CLOTHES</a></li>
 				<li><a href="#"> JACKETS</a></li>
@@ -43,9 +43,9 @@
 		<div class="landing-page-content">
 	
 			<div class="landing-page-img-container">
-				
-				<img src="_resources/img/home-imgs/homepage_1_edited.png" class="landing-img">
-			</div> 
+				carousel insert here
+				<img src="" class="landing-img">
+			</div>
 			
 			<div class="landing-page-content">
 				<div class="landing-current-imgs">

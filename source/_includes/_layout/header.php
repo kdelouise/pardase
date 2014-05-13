@@ -46,4 +46,5 @@
 
 </head>
 
+
 <body class="<?php echo isset($section) ? $section : '' ?>">
